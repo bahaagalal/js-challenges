@@ -15,6 +15,7 @@
   "scripts": {},
   "devDependencies": {},
   "dependencies": {
-    "express": "~4.12.3"
+    "express": "~4.12.3",
+    "ejs": "~2.3.1"
   }
 }
