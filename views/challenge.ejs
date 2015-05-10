@@ -18,6 +18,15 @@
 				});
 			}
 		});
+		<% } else if(id == 2){ %>
+		jQuery(document).ready(function(){
+			var x = 10;
+			jQuery('#results').append('x == x --> ' + Boolean(x == x));
+			var y = 'javascript';
+			jQuery('#results').append('<br> y == y --> ' + Boolean(y == y));
+			var z = ??;
+			jQuery('#results').append('<br> z == z --> ' + Boolean(z == z));
+		});
 		<% } %>
 	</code>
 	<a href="#" id="show">Show Results</a>
@@ -32,6 +41,6 @@
 			});
 		});
 	</script>
-	<script src="/challenges/1.js"></script>
+	<script src="/challenges/<%= id %>.js"></script>
 </body>
 </html>
